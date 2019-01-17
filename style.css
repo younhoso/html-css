@@ -1,0 +1,108 @@
+/* css RESET */
+body, ul, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+/* LayerOut */
+.l__wrapper {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.l__main {
+  overflow: hidden;
+}
+.l__sidebar {
+  float: right;
+  margin-left: 30px;
+}
+
+/* MODULE */
+.header {
+  background-color: rgb(14, 111, 143);
+  color: #fff;
+  overflow: hidden;
+}
+
+.header__logo {
+  width: 250px;
+  height: 100px;
+  background-color: aquamarine;
+  background-image: url(./);
+  display: inline-block;
+  text-indent: -999px;
+  margin: 50px 0;
+}
+
+.header__menu {
+  background-color: blue;
+  overflow: hidden;
+}
+
+.header__menu li {
+  float: left;
+}
+
+.header__menu li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+}
+.header__menu li a:hover {
+  background-color: antiquewhite;
+}
+.header_wave {
+  width: 100px;
+  height: 100px;
+  background: #333;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.contents {
+  background-color: antiquewhite;
+}
+.contents__inner {
+  overflow: hidden;
+  background-color: aliceblue;
+  padding: 30px;
+}
+.main_section {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #999;
+}
+.section__img {
+  float: left;
+  margin-right: 20px;
+}
+.section.section--last {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.sidebar__section h2 {
+  color: dodgerblue;
+  margin-bottom: 20px;
+}
+
+.sidebar__section li {
+  border-left: 5px solid dodgerblue;
+  padding-left: 10px;
+}
+
+.footer {
+  background-color: #333;
+}
